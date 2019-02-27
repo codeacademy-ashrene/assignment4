@@ -1,13 +1,15 @@
 import React, { Component } from 'react';
-import { View, Text } from 'react-native';
+import { View, Text, SafeAreaView } from 'react-native';
 import styles from './Header.css';
 
 class Header extends Component {
   render() {
     return (
-      <View style={styles.header}>
-        <Text style={styles.text}>Awesome Forms</Text>
-      </View>
+      <SafeAreaView>
+        <View style={styles.header}>
+          <Text style={styles.text}>{this.props.title}</Text>
+        </View>
+      </SafeAreaView>
     );
   }
 }
