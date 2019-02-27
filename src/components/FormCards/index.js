@@ -12,7 +12,11 @@ class FormCards extends Component {
         </View>
         <View style={styles.hr} />
         <View style={styles.cardBottom}>
-          <Text style={styles.cardBottomText}>{cardTimestamp}</Text>
+          <Text style={styles.cardBottomText}>
+Created At:
+            {' '}
+            {cardTimestamp}
+          </Text>
         </View>
       </View>
     );

@@ -35,7 +35,8 @@ export default StyleSheet.create({
   },
   cardBottomText: {
     color: '#000000',
-    fontSize: 18,
+    fontSize: 15,
     padding: '3%',
+    textAlign: 'right',
   },
 });
