@@ -30,9 +30,7 @@ exports[`FormCards should render FormCards 1`] = `
           "fontSize": 22,
         }
       }
-    >
-      Code Academy Feedback 2019
-    </Text>
+    />
   </View>
   <View
     style={
@@ -40,6 +38,7 @@ exports[`FormCards should render FormCards 1`] = `
         "borderBottomColor": "#000000",
         "borderBottomWidth": 1,
         "flexGrow": 1,
+        "width": 300,
       }
     }
   />
@@ -61,9 +60,7 @@ exports[`FormCards should render FormCards 1`] = `
           "padding": "3%",
         }
       }
-    >
-      Created On: 26/02/2019
-    </Text>
+    />
   </View>
 </View>
 `;

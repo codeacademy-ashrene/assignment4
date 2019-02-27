@@ -25,6 +25,7 @@ export default StyleSheet.create({
     flexGrow: 1,
     borderBottomColor: '#000000',
     borderBottomWidth: 1,
+    width: 300,
   },
   cardBottom: {
     flexGrow: 1,
