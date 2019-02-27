@@ -25,7 +25,7 @@ export default StyleSheet.create({
     backgroundColor: '#3F51B5',
     alignSelf: 'flex-end',
     position: 'relative',
-    bottom: 0,
+    bottom: 60,
     right: 20,
     alignItems: 'center',
   },

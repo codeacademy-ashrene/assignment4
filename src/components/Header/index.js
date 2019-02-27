@@ -12,7 +12,7 @@ class Header extends Component {
 
           <Icon
             name="ellipsis-v"
-            size={30}
+            size={20}
             color="#FFFFFF"
           />
 
