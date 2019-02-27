@@ -4,8 +4,9 @@ export default StyleSheet.create({
   createFormContainer: {
     flex: 1,
     flexDirection: 'column',
-    justifyContent: 'flex-start',
-    // alignItems: 'center',
+    // justifyContent: 'flex-start',
+    // height: '100%',
+    // alignItems: 'flex-end',
 
   },
   createFormHeader: {
@@ -13,6 +14,7 @@ export default StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'flex-start',
     backgroundColor: '#3F51B5',
+
   },
   createFormText: {
     backgroundColor: '#3F51B5',
@@ -36,7 +38,7 @@ export default StyleSheet.create({
     flex: 1,
     color: '#000000',
     height: 40,
-    width: '70%',
+    width: '80%',
     alignSelf: 'center',
     borderBottomColor: '#000000',
     borderBottomWidth: 1,
@@ -44,5 +46,22 @@ export default StyleSheet.create({
   },
   scrollViewContent: {
     marginTop: 30,
+  },
+  addField: {
+    backgroundColor: '#3F51B5',
+    width: '30%',
+    alignSelf: 'flex-end',
+    marginRight: 30,
+    marginTop: 30,
+    marginBottom: 30,
+  },
+  save: {
+    backgroundColor: '#3F51B5',
+    alignSelf: 'flex-end',
+    position: 'absolute',
+    bottom: 0,
+    width: '100%',
+
+
   },
 });
