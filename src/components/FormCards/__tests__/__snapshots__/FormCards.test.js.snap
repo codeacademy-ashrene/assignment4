@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FormCards should render FormCards 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+      "flexDirection": "column",
+      "justifyContent": "center",
+      "margin": 20,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#FFFFFF",
+        "flexGrow": 1,
+        "height": 100,
+        "justifyContent": "flex-start",
+        "padding": "5%",
+        "width": 300,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#000000",
+          "fontSize": 22,
+        }
+      }
+    >
+      Code Academy Feedback 2019
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "borderBottomColor": "#000000",
+        "borderBottomWidth": 1,
+        "flexGrow": 1,
+      }
+    }
+  />
+  <View
+    style={
+      Object {
+        "backgroundColor": "#FFFFFF",
+        "flexGrow": 1,
+        "height": 50,
+        "width": 300,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#000000",
+          "fontSize": 18,
+          "padding": "3%",
+        }
+      }
+    >
+      Created On: 26/02/2019
+    </Text>
+  </View>
+</View>
+`;

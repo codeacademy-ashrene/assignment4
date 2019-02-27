@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header should render Header 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+      "flexDirection": "row",
+      "justifyContent": "flex-start",
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "backgroundColor": "#3F51B5",
+        "color": "#FFFFFF",
+        "fontSize": 30,
+        "height": 80,
+        "padding": "5%",
+        "width": "100%",
+      }
+    }
+  >
+    Awesome Forms
+  </Text>
+</View>
+`;
